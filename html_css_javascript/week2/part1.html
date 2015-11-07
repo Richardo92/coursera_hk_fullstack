@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Color game</title>
+	<script>
+		function do_game(){
+			var colors = new Array();
+			colors[0] = "black";
+			colors[1] = "blue";
+			colors[2] = "brown";
+			colors[3] = "coral";
+			colors[4] = "gray";
+			colors[5] = "green";
+			colors[6] = "lime";
+			colors[7] = "navy";
+			colors[8] = "orange";
+			colors[9] = "pink";
+			colors[10] = "red";
+			colors[11] = "yellow";
+			var ansId = Math.floor(Math.random() * colors.length);
+			var ans = colors[ansId];
+			while (true) {
+				var color = prompt("You can choose from these colors: " + colors);
+				var id = colors.indexOf(color);
+				if (id == ansId) {
+					alert("Congratulations! Your color is right!");
+					break;
+				}
+			}
+			myBody=document.getElementsByTagName("body")[0];
+			myBody.style.background = color;
+
+		}
+
+	</script>
+</head>
+<body onload="do_game()">	
+</body>
+
+
+
+
+</html>
