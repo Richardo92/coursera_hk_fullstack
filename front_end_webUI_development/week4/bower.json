@@ -1,0 +1,26 @@
+{
+  "name": "Confusion",
+  "homepage": "https://github.com/Richardo92/coursera_hk_fullstack",
+  "authors": [
+    "Zhidong Liu"
+  ],
+  "description": "Restarurant",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "good"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
